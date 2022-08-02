@@ -31,7 +31,9 @@ public class Main {
         // Задание 4
         for (int a = namber[0]; a < namber[6]; a = a + 1) {
             if ((a + 1) % 2 == 0) System.out.println(namber[a]);
-        }
+        }namber[2]= namber[2]+1;
+        namber[4]= namber[4] +1;
+        namber[6] = namber[6]+1;
     }
 }
 
