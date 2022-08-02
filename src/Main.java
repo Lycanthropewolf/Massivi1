@@ -16,20 +16,21 @@ public class Main {
         // Задание 1
         int[] namber = new int[]{1,2,3};
         float [] fraction = new float []{ 1.57f, 7.654f,9.986f};
-        double[] freeArray = {1.3453463634676544, 2.345346346};
+        double[] freeArray = new double[]{1.3453463634676544, 2.345346346};
 
         // Задание 2
+        System.out.println(namber[0] +"," +namber[1]+","+namber[2]);
+        System.out.println(fraction[0]+","+fraction[1]+","+fraction[2]);
+        System.out.println(freeArray[0]+","+freeArray[1]);
 
-        namber[0]= 1; namber[1]= 2; namber[2]=3;
+        //Задание 3
+        System.out.println(namber[2] +"," +namber[1]+","+namber[0]);
+        System.out.println(fraction[2]+","+fraction[1]+","+fraction[0]);
+        System.out.println(freeArray[1]+","+freeArray[0]);
 
-        System.out.println(namber[0]);
-        System.out.println(namber[1]);
-        System.out.println(namber[2]);
-        System.out.println(fraction[0]);
-        System.out.println(fraction[1]);
-        System.out.println(fraction[2]);
-        System.out.println(freeArray[0]);
-        System.out.println(freeArray[1]);
+        // Задание 4
+
+
 
     }
 
