@@ -69,7 +69,7 @@ public class Main {
 
         // Задание 4
         for (int i = 0; i < ints.length; i++) {
-            if (ints[i] % 2 > 0) {
+            if (ints[i] % 2 != 0) {
                 ints[i] = ints[i] + 1;
             }
             System.out.println(ints[i]);
