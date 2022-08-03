@@ -68,6 +68,15 @@ public class Main {
         System.out.println();
 
         // Задание 4
+        for ( int i=0; i<ints.length; i++){
+
+        }
+
+
+
+
+
+
     }
 }
 
