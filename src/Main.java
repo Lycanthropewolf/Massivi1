@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int[] weights = {90, 92,241,42,52,25,35,0,0,0,0,0};
+       /* int[] weights = {90, 92, 241, 42, 52, 25, 35, 0, 0, 0, 0, 0};
         weights[0] = 90;
         int januaryWeights = weights[0];
         System.out.println(januaryWeights);
@@ -9,29 +9,82 @@ public class Main {
         System.out.println(weights[1]);
         int january = 0;
         System.out.println(weights[january]);
-        for (int i = 0;i< weights.length;i++ ){
+        for (int i = 0; i < weights.length; i++) {
             System.out.println(weights[i]);
-        }
+        }*/
 
         // Задание 1
-        int[] namber = new int[]{1,2,3};
-        float [] fraction = new float []{ 1.57f, 7.654f,9.986f};
-        double[] freeArray = {1.3453463634676544, 2.345346346};
+        int[] ints = {1,2,3};
+        for (int i = 0; i < ints.length; i++) {
+            ints[i] = i + 1;
+        }
+        double[] doubles = {1.57, 7.654, 9.986};
+        boolean[] booleans = {true, false};
 
         // Задание 2
+        for (int i = 0; i < ints.length; i++) {
+            System.out.print(ints[i]);
+            if (i != ints.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = 0; i < doubles.length; i++) {
+            System.out.print(doubles[i]);
+            if (i != doubles.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = 0; i < booleans.length; i++) {
+            System.out.print(booleans[i]);
+            if (i != booleans.length - 1) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
 
-        namber[0]= 1; namber[1]= 2; namber[2]=3;
+        // Задание 3
+        for (int i = ints.length - 1; i >= 0; i--) {
+            System.out.print(ints[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = doubles.length - 1; i >= 0; i--) {
+            System.out.print(doubles[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+        for (int i = booleans.length - 1; i >= 0; i--) {
+            System.out.print(booleans[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
 
-        System.out.println(namber[0]);
-        System.out.println(namber[1]);
-        System.out.println(namber[2]);
-        System.out.println(fraction[0]);
-        System.out.println(fraction[1]);
-        System.out.println(fraction[2]);
-        System.out.println(freeArray[0]);
-        System.out.println(freeArray[1]);
+        // Задание 4
+        for (int i = 0; i < ints.length; i++) {
+            if (ints[i] % 2 != 0) {
+                ints[i] = ints[i] + 1;
+            }
+            System.out.println(ints[i]);
+
+        }
+
+
 
     }
-
-
 }
+
+
+
+
+
+
+
+
