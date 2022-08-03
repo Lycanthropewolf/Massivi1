@@ -14,7 +14,7 @@ public class Main {
         }*/
 
         // Задание 1
-        int[] ints = new int[3];
+        int[] ints = {1,2,3};
         for (int i = 0; i < ints.length; i++) {
             ints[i] = i + 1;
         }
@@ -75,6 +75,7 @@ public class Main {
             System.out.println(ints[i]);
 
         }
+
 
 
     }
