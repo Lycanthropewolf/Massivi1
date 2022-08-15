@@ -10,11 +10,11 @@ public class Main {
         int january = 0;
         System.out.println(weights[january]);
         for (int i = 0; i < weights.length; i++) {
-            System.out.println(weights[i]);
-        }*/
+            System.out.println(weights[i]);*/
+
 
         // Задание 1
-        int[] ints = {1,2,3};
+        int[] ints = new int[]{1, 2, 3};
         for (int i = 0; i < ints.length; i++) {
             ints[i] = i + 1;
         }
@@ -24,21 +24,21 @@ public class Main {
         // Задание 2
         for (int i = 0; i < ints.length; i++) {
             System.out.print(ints[i]);
-            if (i != ints.length - 1) {
+            if (i < ints.length - 1) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = 0; i < doubles.length; i++) {
             System.out.print(doubles[i]);
-            if (i != doubles.length - 1) {
+            if (i < doubles.length - 1) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = 0; i < booleans.length; i++) {
             System.out.print(booleans[i]);
-            if (i != booleans.length - 1) {
+            if (i < booleans.length - 1) {
                 System.out.print(", ");
             }
         }
@@ -47,21 +47,21 @@ public class Main {
         // Задание 3
         for (int i = ints.length - 1; i >= 0; i--) {
             System.out.print(ints[i]);
-            if (i != 0) {
+            if (i > 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = doubles.length - 1; i >= 0; i--) {
             System.out.print(doubles[i]);
-            if (i != 0) {
+            if (i > 0) {
                 System.out.print(", ");
             }
         }
         System.out.println();
         for (int i = booleans.length - 1; i >= 0; i--) {
             System.out.print(booleans[i]);
-            if (i != 0) {
+            if (i > 0) {
                 System.out.print(", ");
             }
         }
@@ -72,14 +72,17 @@ public class Main {
             if (ints[i] % 2 != 0) {
                 ints[i] = ints[i] + 1;
             }
-            System.out.println(ints[i]);
+            System.out.print(ints[i]);
+            if ( i < ints.length - 1){
+                System.out.print(", ");
+
+            }
+
 
         }
-
-
-
     }
 }
+
 
 
 
