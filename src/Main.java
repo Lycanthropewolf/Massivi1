@@ -73,14 +73,57 @@ public class Main {
                 ints[i] = ints[i] + 1;
             }
             System.out.print(ints[i]);
-            if ( i < ints.length - 1){
+            if (i < ints.length - 1) {
                 System.out.print(", ");
-
             }
-
-
         }
+        System.out.println();
+
+
+        // Задание 5
+        int[][] matrix = new int[3][3];
+        for (int row = 0; row < matrix.length; row++) {
+            for (int column = 0; column < matrix.length; column++) {
+                if (row == column || row == (matrix.length - 1 - column)) {
+                    matrix[row][column] = 1;
+                } else {
+                    matrix[row][column] = 0;
+                }
+                System.out.print(matrix[row][column] + " ");
+            }
+            System.out.println();
+        }
+
+
+
+        // Задание 6
+        int[] arr1 = new int[]{5, 4, 3, 2, 1};
+        for (int y = 0; y < arr1.length; y++) {
+            System.out.print(arr1[y] + " ");
+        }
+        System.out.println();
+
+
+
+
+
+        //Задание 7
+
+
+
+
+
+
+
+
+
+        // Задание 8
+
+
+
     }
+
+
 }
 
 
