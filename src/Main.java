@@ -95,7 +95,6 @@ public class Main {
         }
 
 
-
         // Задание 6
         int[] arr1 = new int[]{5, 4, 3, 2, 1};
         for (int y = 0; y < arr1.length; y++) {
@@ -104,27 +103,37 @@ public class Main {
         System.out.println();
 
 
-
-
-
         //Задание 7
 
 
-
-
-
-
-
-
-
         // Задание 8
+        int[] arr = {-6, 2, 5, -8, 8, 10, 4, -7, 12, 1};
+        for (int i : arr) {
+            for ( int j:arr){
+                if( i+j ==-2){
+                    System.out.println(j + " ,"+i);
+                }else break;
+            }
+        }
 
+
+
+        // Задание 9
+        int[] arr0 = {-6, 2, 5, -8, 8, 10, 4, -7, 12, 1};
+        for (int i : arr0) {
+            for ( int j:arr0){
+                if( i+j ==-2){
+                    System.out.println(j + " ,"+i);
+                }
+            }
+        }
+
+
+
+        }
 
 
     }
-
-
-}
 
 
 
